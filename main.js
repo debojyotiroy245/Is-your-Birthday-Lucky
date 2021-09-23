@@ -28,10 +28,10 @@ resetButton.addEventListener("click", function(){
 
 function compareValues(sum,luckyNumber){
     if(sum%luckyNumber===0){
-        showMessage("Your birthday is lucky") 
+        showMessage("Your birthday is lucky🥳 🥳 🥳") 
     }
     else{
-        showMessage("Your birthday is not lucky") 
+        showMessage("Your birthday is not lucky😕") 
     }
 }
 
