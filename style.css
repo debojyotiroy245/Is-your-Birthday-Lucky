@@ -1,0 +1,141 @@
+:root {
+    --background-dark: #7751b8;
+    --black: #000;
+}
+
+html {
+    background-color: var(--background-dark);
+    color: var(--black);
+    height: 100%;
+  }
+  
+  * {
+    font-family: "Lato", sans-serif;
+  }
+  
+ h1{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .container {
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+  }
+  
+  #calculate-number {
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  #check-button {
+    background-color: var(--background-dark);
+    border: 2px solid var(--black);
+    color: var(--black);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    display: block;
+  }
+
+  .reset-btn{
+    background: rgb(247, 59, 59);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.8rem;
+    font-size: small;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  #output-box {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+  }
+
+  #privacy-box{
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    font-size: large;
+    color: rgb(60, 255, 0);
+  }
+  
+  /* footer */
+  
+  footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 0.5rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.2rem;
+  }
+  
+  #privacy-policy{
+      display:block;
+      margin: auto;
+      font-size: small;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+
+  
+
